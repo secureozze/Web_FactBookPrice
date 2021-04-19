@@ -4,7 +4,7 @@
 
 ---
 
-![](https://archive.is/m2RIN)
+![https://archive.is/m2RIN](https://archive.is/m2RIN)
 
 ### 🏆Prize
 
