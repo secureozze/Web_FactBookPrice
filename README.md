@@ -1,10 +1,9 @@
 # 📘 도서정가제 팩트체킹 (Web)
 
-### 🌎 Website
+### 🌎 Website : https://archive.is/m2RIN
 
 ---
 
-![https://archive.is/m2RIN](https://archive.is/m2RIN)
 
 ### 🏆Prize
 
