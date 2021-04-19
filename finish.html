@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>도서 정가제</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="icon" href="./images/아이콘.png" type="image/png">
+
+	<script type="text/javascript">
+		function counter() {
+			var dday = new Date("Nov 20, 2020, 00:00:00").getTime(); //디데이
+			setInterval(function () {
+				var now = new Date(); //현재 날짜 가져오기
+				var distance = dday - now;
+				var d = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var s = Math.floor((distance % (1000 * 60)) / 1000);
+				if (s < 10) {
+					s = '0' + s;
+				}
+				$('.ViewTimer').html(d + '일 ' + h + '시 ' + m + '분 ' + s + '초')
+			}, 1000);
+		}
+		counter();
+	</script>
+
+</head>
+
+<body>
+
+	<div class="wrapper d-flex align-items-stretch">
+		<nav id="sidebar" class>
+			<div class="custom-menu">
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle Menu</span>
+				</button>
+			</div>
+			<div class="p-4">
+				<h1 id="logo"><a href="./index.html" class="logo">
+						<img src="./images/로고.png" alt="도서정가제 팩트체크" width="210px" />
+					</a></h1>
+				<ul class="list-unstyled components mb-5">
+					<li>
+						<a href="./index.html"><span class="mr-3"></span> 시작하며</a>
+					</li>
+					<li>
+						<a href="./page0101.html"><span class="mr-3"></span> 도서정가</a>
+					</li>
+					<li>
+						<a href="./page0102.html"><span class="mr-3"></span> 지역서점</a>
+					</li>
+					<li>
+						<a href="./page0201.html"><span class="mr-3"></span> 해외도서정가제</a>
+					</li>
+					<li>
+						<a href="./page0202.html"><span class="mr-3"></span> 작가권익/콘텐츠다양화</a>
+					</li>
+					<li>
+						<a href="./page0301.html"><span class="mr-3"></span> 웹툰 무료보기</a>
+					</li>
+					<li>
+						<a href="./page0401.html"><span class="mr-3"></span> sns 책무덤 사진</a>
+					</li>
+					<li>
+						<a href="./page0402.html"><span class="mr-3"></span> 긍정여론</a>
+					</li>
+					<li class="active">
+						<a href="./finish.html"><span class="mr-3"></span> 마치며</a>
+					</li>
+				</ul>
+
+				<div class="footer">
+					<p><br /><br />
+						기사작성 : 류민지, 이수아 <br />
+						웹페이지 제작 : 오지연<br /><br /><br /><br />
+					</p>
+					<p>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+							target="_blank">Colorlib.com</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Page Content  -->
+		<div id="content" class="p-4 p-md-5 pt-5">
+			<h2 class="mb-4">누가 도서정가제의 '양치기 소년' 일까?</h2>
+			<h3 class="h6 mb-3">- 도서정가제 재검토 D - <span class="ViewTimer"></span>, 끝까지 양치기 소년들을 피해야 한다.</h3>
+			<br />
+			<p>
+				도서정가제를 둘러싼 다양한 주장들의 사실여부를 알아보았다. 주목할 만한 사실은 진영을 막론하고 거짓이 있었다는 점이다. 이제 도서정가제 재검토까지 약 50일 남았다. 재검토기간이
+				가까워질수록 양측의 논쟁은 더욱 뜨거워질 것이다. 이 시기는 가장 거짓이 많이 생산되는 시기이다. 끝까지 모든 주장의 사실관계를 확인하는 자세만이 도서정가제를 올바른 방향으로 이끌
+				것이다.
+			</p>
+
+			<br /><br /><br />
+
+			<a href="./page0402.html">
+				<button type="button" id="previous" class="btn btn-primary">
+					<i class="fa fa-angle-left fa-2x"></i>
+				</button>
+			</a>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

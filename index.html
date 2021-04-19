@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>도서 정가제</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="icon" href="./images/아이콘.png" type="image/png">
+	<!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/font-kopub/1.0/kopubdotum.css'> -->
+
+	<script type="text/javascript">
+		function counter() {
+			var dday = new Date("Nov 20, 2020, 00:00:00").getTime(); //디데이
+			setInterval(function () {
+				var now = new Date(); //현재 날짜 가져오기
+				var distance = dday - now;
+				var d = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var s = Math.floor((distance % (1000 * 60)) / 1000);
+				if (s < 10) {
+					s = '0' + s;
+				}
+				$('.ViewTimer').html(d)
+			}, 1000);
+		}
+		counter();
+	</script>
+
+</head>
+
+<body>
+
+	<div class="wrapper d-flex align-items-stretch">
+		<nav id="sidebar" class>
+			<div class="custom-menu">
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle Menu</span>
+				</button>
+			</div>
+			<div class="p-4">
+				<h1 id="logo"><a href="./index.html" class="logo">
+						<img src="./images/로고.png" alt="도서정가제 팩트체크" width="210px" />
+					</a></h1>
+				<ul class="list-unstyled components mb-5">
+					<li class="active">
+						<a href="./index.html"><span class="mr-3"></span> 시작하며</a>
+					</li>
+					<li>
+						<a href="./page0101.html"><span class="mr-3"></span> 도서정가</a>
+					</li>
+					<li>
+						<a href="./page0102.html"><span class="mr-3"></span> 지역서점</a>
+					</li>
+					<li>
+						<a href="./page0201.html"><span class="mr-3"></span> 해외도서정가제</a>
+					</li>
+					<li>
+						<a href="./page0202.html"><span class="mr-3"></span> 작가권익/콘텐츠다양화</a>
+					</li>
+					<li>
+						<a href="./page0301.html"><span class="mr-3"></span> 웹툰 무료보기</a>
+					</li>
+					<li>
+						<a href="./page0401.html"><span class="mr-3"></span> sns 책무덤 사진</a>
+					</li>
+					<li>
+						<a href="./page0402.html"><span class="mr-3"></span> 긍정여론</a>
+					</li>
+					<li>
+						<a href="./finish.html"><span class="mr-3"></span> 마치며</a>
+					</li>
+				</ul>
+
+
+				<div class="footer">
+					<p><br/><br/>
+						기사작성 : 류민지, 이수아 <br/>
+						웹페이지 제작 : 오지연<br/><br/><br/><br/>
+					</p>
+					<p>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+							target="_blank">Colorlib.com</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Page Content  -->
+		<div id="content" class="p-4 p-md-5 pt-5">
+			<h2 class="mb-4">누가 도서정가제의 '양치기 소년' 일까?</h2>
+			<h3 class="h6 mb-3">- 도서정가제 재검토 D - <span class="ViewTimer"></span>, 그간의 주장들을 팩트체크하다</h3>
+			<br />
+			<p>오는 11월 20일은 3년 주기로 돌아오는 도서정가제 타당성 검증 기간이다. 내용 완화뿐만 아니라 법안의 존폐가 결정될 수도 있다.</p>
+			<p>도서정가제는 도서에 정가를 표시하고, 판매자는 최종소비자에게 표시된 정가대로 판매하도록 하는 제도이다. 한국에는 2003년에 도입되었고 2014년에 개정되었다. 주요 개정내용은 아래 표와
+				같다.<br /><br /></p>
+			<p class="center"> <img src="./images/서론/서론01.jpg" width="70%"> ▲ 2014년 개정 도서정가제 주요 내용 (출처 : 대한민국 정책
+				브리핑)</br></br></p>
+			<p>개정 이후로 6년이 지났지만, 법안에 관한 입장은 좁혀지지 않고 있다. 작년에는 도서정가제 폐지를 요청하는 국민청원이 20만명 이상의 동의를 얻었다. 일각에서는 ‘완전 도서정가제 도입’을
+				주장하며 법안의 필요성을 강조하고 있다. 2020년 개정까지 약 50일 남은 현재도 다양한 이해관계가 얽히면서 법안 방향성을 정하는 데 난항을 겪고 있다.<br /><br /></p>
+			<p class="center"><img src="./images/서론/서론02.png" width="70%"> <br /><br /></p>
+			<p>문제는 그뿐만이 아니다. 도서정가제를 두고 다양한 주장이 쏟아지고 있지만 정확한 출처, 통계가 없는 경우가 태반이다. 실제로 “도서정가제가 계속되면 무료 웹툰 서비스가 완전히 없어진다”
+				같은 근거 없는 주장이 SNS와 인터넷 커뮤니티에서 공유되기도 했다. 이런 상황 속에서 도서정가제에 관한 갈등만 깊어지고 있다.</p>
+			<p>도서정가제 개정을 맞이하여 그간 많은 사람이 헷갈렸던 주장들의 사실여부를 판단하려 한다.</p>
+			<p id="highlight"><strong> 과연 누가 도서정가제의 '양치기 소년' 일까? </strong></p>
+
+
+			<a href="./page0101.html">
+				<button type="button" id="next" class="btn btn-primary">
+					<i class="fa fa-angle-right fa-2x"></i>
+				</button>
+			</a>
+
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
